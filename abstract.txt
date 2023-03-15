@@ -1,0 +1,7 @@
+A gentle introduction to type classes in Scala
+
+
+In OOP-languages programmers are used to rely on subtyping to implement polymorphic functions. Type classes in Scala provides a way that new behaviour to existing classes can be added without inheritance. For a type to belong to a typeclass, it needs to implement the methods of that typeclass. These implementations are ad-hoc: methods can have different implementations based on the actual type.
+
+In this talk we introduce type classes as fundamental functional programming patterns that provide a way to structure program design. We check how these concepts arise in Haskell, the language where type classes are originated from, and explain how these concepts can be implemented in Scala either by hand or using a library such as Cats.
+
